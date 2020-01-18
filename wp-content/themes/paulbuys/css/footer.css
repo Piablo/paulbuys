@@ -1,0 +1,37 @@
+.main-container-footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 61, 73);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px 5px 15px 5px rgb(200,200,200);
+}
+.contacts-container-footer{
+    width: 90%;
+    height: 100px;
+    display: grid;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+.icon-container-footer{
+    display: block;
+    width: 300px;
+    height: 50px;
+}
+.icon-container-inner-footer{
+    width: 50px;
+    height: 50px;
+    
+}
+.icon-container-inner-footer a {
+    /* color: rgb(254,107,122); */
+    color: rgb(200,200,200)
+}
+#icon-1{
+    float: left;
+}
+#icon-2{
+    float: right;
+}
+@media (min-width: 500px) {
+  
+}
+

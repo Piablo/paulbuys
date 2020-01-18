@@ -31,14 +31,19 @@ Version: 1.0
 }
 
 .dark-grey-text{
-    color: rgb(45,45,45);
+    color: rgb(51, 61, 73);
 }
 a {
     text-decoration: none;
-    color: rgb(45,45,45);
+    color: rgb(51, 61, 73);
     font-weight: bold;
 }
 a:hover{
     color: rgb(0, 221, 216);
     transition: .4s;
+}
+.body-container{
+    display: block;
+    position: relative;
+    z-index: 1;
 }

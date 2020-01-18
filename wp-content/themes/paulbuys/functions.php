@@ -21,6 +21,12 @@
 
         wp_register_style('experience-card-resume', get_template_directory_uri() . "/css/experience-card-resume.css", array(), 1, 'all');
         wp_enqueue_style('experience-card-resume');
+
+        wp_register_style('header', get_template_directory_uri() . "/css/header.css", array(), 1, 'all');
+        wp_enqueue_style('header');
+
+        wp_register_style('footer', get_template_directory_uri() . "/css/footer.css", array(), 1, 'all');
+        wp_enqueue_style('footer');
         
         // wp_enqueue_script('javascript', get_template_directory_uri() . "/app.js", array('jquery'), 1, true);
 

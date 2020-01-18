@@ -1,10 +1,14 @@
 .main-container-resume-body{
+    
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "left-container-resume-body"
     "right-container-resume-body";
     
+}
+.resume-container{
+    margin: 20px;
 }
 .left-container-resume-body{
     width: 100%;

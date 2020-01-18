@@ -1,5 +1,6 @@
 .main-container-experience-card-resume{
     width: 100%;
+    
 }
 .headline-container-experience-card-resume{
     padding-left: 10px;
@@ -26,6 +27,9 @@
 }
 .text-container-experience-card-resume{
     padding: 10px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: white;
 }
 .dates-location-container-experience-card-resume{
     width: 100%;
