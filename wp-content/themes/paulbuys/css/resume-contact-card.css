@@ -1,0 +1,27 @@
+.main-container-resume-contact-card{
+    
+    width: 100%;
+}
+.single-contact-container-resume-contact-card{
+    position: relative;
+    margin-bottom: 30px;
+    position: relative;
+    width: 90%;
+    height: 55px;
+}
+.icon-container-resume-contact-card{
+    
+    width:30px;
+    height: 30px;
+    float: left;
+}
+.text-container-resume-contact-card{
+    width: 100%;
+    position: absolute;
+    top:30px;
+}
+
+@media (min-width: 500px) {
+  
+}
+

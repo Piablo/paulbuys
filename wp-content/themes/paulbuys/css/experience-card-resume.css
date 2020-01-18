@@ -1,0 +1,44 @@
+.main-container-experience-card-resume{
+    width: 100%;
+}
+.headline-container-experience-card-resume{
+    padding-left: 10px;
+    border-bottom: 3px solid rgb(0, 221, 216);
+    color: rgb(0, 221, 216);
+}
+.bullet-experience-card-resume{
+    width: 100%;
+    padding-bottom: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20px 1fr;
+    grid-template-areas: "bullet-icon-container-experience-card-resume bullet-text-container-experience-card-resume";
+}
+.bullet-icon-container-experience-card-resume{
+    width: 20px;
+    height: 20px;
+    grid-area:"bullet-icon-container-experience-card-resume";
+    margin: 0;
+}
+.bullet-text-container-experience-card-resume{
+    width: 100%;
+    grid-area:"bullet-text-container-experience-card-resume"
+}
+.text-container-experience-card-resume{
+    padding: 10px;
+}
+.dates-location-container-experience-card-resume{
+    width: 100%;
+    height: 30px;
+}
+.dates-container-experience-card-resume{
+    
+    float: left;
+}
+.location-container-experience-card-resume{
+    float: right;
+}
+@media (min-width: 500px) {
+  
+}
+

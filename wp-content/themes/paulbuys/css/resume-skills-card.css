@@ -1,0 +1,11 @@
+.main-container-resume-skills-card{
+    width: 90%;
+}
+.headline-resume-skills-card{
+    border-bottom: 3px solid rgb(0, 221, 216);
+}
+
+@media (min-width: 500px) {
+  
+}
+

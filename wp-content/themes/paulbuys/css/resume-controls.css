@@ -1,0 +1,17 @@
+.button-resume-skills-card{
+    padding-top: 10px;
+    width:100%;
+}
+.button-resume-skills-card a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(0, 221, 216);
+    border-radius: 10px;
+}
+.button-resume-skills-card a:hover{
+    background-color: rgb(45,45,45);
+}
+@media (min-width: 500px) {
+  
+}
+
