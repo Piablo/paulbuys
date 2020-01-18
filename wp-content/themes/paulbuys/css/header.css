@@ -35,6 +35,8 @@
     animation: rotation 10s infinite linear;
 }
 .nav-container-header{
+    position: relative;
+    display: none;
     width: 100%;
     height: 60px;
     grid-area:"nav-container-header"
@@ -46,6 +48,38 @@
 }
 .nav-container-header a:hover{
     color:rgb(254,107,122);
+}
+.hamburger-header{
+    position: absolute;
+    display: block;
+    right: 10px;
+    top:10px;
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+}
+.mobile-menu-container-header{
+    position: sticky;
+    top:60px;
+    width: 100%;
+    background-color: rgb(245,245,245);
+    border-radius: 0 0 10px 10px;
+    z-index: 98;
+}
+.mobile-menu-container-header a {
+    display: block;
+    width: 100px;
+    padding:10px;
+    text-align: center;
+}
+.mobile-menu-container-header a:hover {
+    color:rgb(254,107,122);
+}
+.mobile-hide{
+    display: none
+}
+.mobile-show{
+    display: block;
 }
 @keyframes rotation {
     0% {
@@ -83,8 +117,13 @@
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 650px) {
    
-    
+    .nav-container-header{
+        display: block;
+    }
+    .hamburger-header{
+        display: none;
+    }
 }
 

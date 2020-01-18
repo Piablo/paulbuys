@@ -3,7 +3,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Wallpoet&display=swap" rel="stylesheet">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
     <?php wp_head();?>
@@ -20,6 +20,14 @@
         <a <?php if(is_page('interview')) echo 'class="current-button-header"'?> href="interview">Interview</a>
         <a <?php if(is_page('home')) echo 'class="current-button-header"'?> href="home">Resume</a>
     </div>
+    <div class="hamburger-header">
+        <i style="font-size: 40px; color: rgb(254,107,122)"class="fas fa-bars"></i>
+    </div>
+</div>
+<div class="mobile-menu-container-header mobile-hide">    
+    <a <?php if(is_page('home')) echo 'class="current-button-header"'?> href="home">Resume</a>
+    <a <?php if(is_page('interview')) echo 'class="current-button-header"'?> href="interview">Interview</a>
+    <a <?php if(is_page('library')) echo 'class="current-button-header"'?> href="library">Library</a>
 </div>
 
 </div>
