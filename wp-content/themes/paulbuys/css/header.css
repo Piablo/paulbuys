@@ -2,11 +2,11 @@
     width: 100%;
     /* background-color: #ffc905; */
     background-color: rgb(240,240,240);
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
     position: sticky;
     top: 0;
     z-index: 99;
-    box-shadow: 3px 3px 5px 3px rgb(220,220,220);
+    /* box-shadow: 3px 3px 5px 3px rgb(220,220,220); */
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-areas: "logo-header nav-container-header";

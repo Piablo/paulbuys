@@ -27,6 +27,9 @@
 
         wp_register_style('footer', get_template_directory_uri() . "/css/footer.css", array(), 1, 'all');
         wp_enqueue_style('footer');
+
+        wp_register_style('exela-card-1', get_template_directory_uri() . "/css/exela-card-1.css", array(), 1, 'all');
+        wp_enqueue_style('exela-card-1');
         
         wp_enqueue_script('javascript', get_template_directory_uri() . "/app.js", array('jquery'), 1, true);
 

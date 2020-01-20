@@ -124,7 +124,7 @@
                             <div class="bullet-icon-container-experience-card-resume">
                                 <i style="font-size: 15px" class="fas fa-circle light-blue-text"></i>
                             </div>
-                            <div class="bullet-text-container-experience-card-resume">Developing an in-house theme to facilitate the development of fully working, SEO friendly, 8-page websites within 90mins. </div>
+                            <div class="bullet-text-container-experience-card-resume">Built an in-house theme to facilitate the development of fully working, SEO friendly, 8-page websites within 90mins. </div>
                         </div>
 
                         <div class="bullet-experience-card-resume">
@@ -138,7 +138,7 @@
                             <div class="bullet-icon-container-experience-card-resume">
                                 <i style="font-size: 15px" class="fas fa-circle light-blue-text"></i>
                             </div>
-                            <div class="bullet-text-container-experience-card-resume">For a snippet of our projects under construction, please follow these links.</div>
+                            <div class="bullet-text-container-experience-card-resume">For a snippet of our projects under construction, please follow these links; <a href="http://dev1.writesideup.co.uk/">Labyrinth</a> and <a href="http://dev3.writesideup.co.uk/">Exela</a></div>
                         </div>  
                         
                     </div>
